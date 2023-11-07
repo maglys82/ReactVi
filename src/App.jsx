@@ -5,11 +5,9 @@ import Home from './views/Home';
 import Favorites from './views/Favorites';
 import ContextoProvider from './contex/MyContext';
 
-const App = () => {
-
-
+const App = () => {  
   return (
-    <ContextoProvider >
+    <ContextoProvider>
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
